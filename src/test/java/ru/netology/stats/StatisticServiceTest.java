@@ -1,5 +1,7 @@
 package ru.netology.stats;
 
+import org.junit.jupiter.api.Test;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class StatisticServiceTest {
@@ -11,6 +13,4 @@ class StatisticServiceTest {
         long actual = service.findMax(incomesInBillions);
         assertEquals(expected, actual);
     }
-}
-
 }
